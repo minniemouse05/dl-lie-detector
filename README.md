@@ -74,8 +74,8 @@ Each clip includes video frames, extracted audio, and human-annotated transcript
 
 | Model | Accuracy | AUC | F1 | ECE (raw) |
 |-------|----------|-----|-----|-----------|
-| Video Transformer | **0.80** | 0.846 | 0.783 | 0.23 |
-| Video + Text | 0.76 | **0.853** | 0.727 | 0.11 |
+| Video Transformer | **0.80** | 0.846 | **0.783** | 0.23 |
+| Video + Text | 0.76 | **0.853** | 0.727 | **0.11** |
 
 Video is the strongest single modality. The bimodal model trades slight accuracy for better calibration, which is important for legal contexts where confident errors are costly.
 
